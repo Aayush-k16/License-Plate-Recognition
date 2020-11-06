@@ -1,7 +1,7 @@
 close all;
 clear all;
 
-im = imread('img/1.jpg');
+im = imread('.jpg');
 im = imresize(im, [480 NaN]);
 imgray = rgb2gray(im);
 imgray = medfilt2(imgray);
